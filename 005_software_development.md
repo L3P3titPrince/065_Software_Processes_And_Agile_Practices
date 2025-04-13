@@ -28,7 +28,6 @@
   - [Documentations](#documentations)
 - [Agile Methods](#agile-methods)
   - [Manifesto for Agile Software Development](#manifesto-for-agile-software-development)
-- [Waterfall vs Agile](#waterfall-vs-agile)
 - [Reference](#reference)
   - [Template](#template)
       - [Business Requirements Document (BRD) Template](#business-requirements-document-brd-template)
@@ -151,7 +150,7 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 - Product team assign backlog UserStory to each team base on team capacity and skill set backgound. For exmaple bank-end, frond-end, and mobile skillset should be distrubited to corresponding team.
 - Team memeber should discuss dependencies and risks with the assigned UserStory from backlog as Sprint/Phase Goals.
 
-![image](004_images/003.png)
+![image](004_images/004.png)
 
 <Groomed SQL result>
 
@@ -159,9 +158,8 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 - Update JIRA tickets fields to demstrante that this ticket will be commited Phase/Sprint Goal.
 - Based JIRA ticket fields to creat Sprint Plan in JIRA Structuere or JIRA Plan.
 
-<JIRA Structure>
+![image](004_images/011.png)
 
-<JIRA Plan>
 
 ## Exit checklist:
 
@@ -192,6 +190,8 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 > - From metric reporting level, a update burndown chart should be reported to stakeholders and executive level.
 > - All JIRA ticket fields should be updated to current status, including status, due date, dependencies, and comments.
 
+![image](004_images/006.png)
+
 <confluence page>
 <burndown chart>
 
@@ -205,13 +205,13 @@ Phase Planning was orginzed by Product team to decide which user stories in back
   - Sprint Goal and Phase Goal
   - Team capacity planning and upcoming holiday and vacation plan.
   - Assigning a target point to an individual story point is discoraged; Rather, we are looking for commitments from everyone about what they can deliverd in this Sprint.
-- 
+
+
 > **Exit Criteria [Outputs/TakeAway]:** 
 > - Team members have clear understanding of current Sprint Goal and Phase goal. Everyone committed to correct JIRA ticket
 > - JIRA Plan or JIRA Structure is updated and shared to all stakeholders
-> - 
 
-<Sprint Plan Conflunce Page>
+![image](004_images/005.png)
 
 ### Sprint Review
 - Sprint Plan and Sprint Review meeting can be arranged together if the team is small.
@@ -227,6 +227,8 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 > - Sprint metrics updates
 > - Mitigration plan if previous commitement goal was not finished.
 
+![image](004_images/007.png)
+
 <defect filter>
 ----------------------------------------------------
 
@@ -240,7 +242,7 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 
 ----------------------------------------------------
 ## Exit checklist:
-- [ ] 
+- [ ] JIRA tickets fields are updated to correct status daily. Same to dashboard.
 - [ ] 
 - [ ] 
 - [ ] 
@@ -256,10 +258,11 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 - Product deme can be Sprint Demo or Feature demo.
 
 ## Documentations
-
-
-
-
+- Product business requirement document (BRD)
+- Software design document (SDD)
+- System test Plan
+- Implementation Guide
+- Application User Guide
 
 
 ----------------------------------------------------
@@ -282,10 +285,6 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 <br>
 <br>
 <br>
-
-# Waterfall vs Agile
-
-![image](004_images/001.png)
 
 
 # Reference
