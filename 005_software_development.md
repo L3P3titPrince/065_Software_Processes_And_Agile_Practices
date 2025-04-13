@@ -2,6 +2,7 @@
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
+- [Agile Workflow](#agile-workflow)
 - [Sprint Planning Preparation](#sprint-planning-preparation)
   - [Essential Activities](#essential-activities)
     - [Prepare team capacity and story points calculation](#prepare-team-capacity-and-story-points-calculation)
@@ -11,7 +12,7 @@
   - [Preparation checklist:](#preparation-checklist)
 - [Phase Planning](#phase-planning)
   - [Agile Activites](#agile-activites)
-    - [Story Grooming Sessions](#story-grooming-sessions)
+    - [Phase Planning Meeting](#phase-planning-meeting)
     - [Technical Project Manager Tasks](#technical-project-manager-tasks)
   - [Exit checklist:](#exit-checklist)
 - [Sprint Excecution](#sprint-excecution)
@@ -19,6 +20,7 @@
     - [Daliy Scrum](#daliy-scrum)
     - [Sprint Plan](#sprint-plan)
     - [Sprint Review](#sprint-review)
+  - [](#)
     - [Sprint Retrospective](#sprint-retrospective)
   - [Exit checklist:](#exit-checklist-1)
 - [Other Activities](#other-activities)
@@ -26,6 +28,7 @@
   - [Documentations](#documentations)
 - [Agile Methods](#agile-methods)
   - [Manifesto for Agile Software Development](#manifesto-for-agile-software-development)
+- [Waterfall vs Agile](#waterfall-vs-agile)
 - [Reference](#reference)
   - [Template](#template)
       - [Business Requirements Document (BRD) Template](#business-requirements-document-brd-template)
@@ -35,11 +38,25 @@
 <br>
 <br>
 
+# Agile Workflow
+- This is only a general Agile workflow. It can be modified and adapted to orgranization/project specific needs.
+- Each Phase will contain several Sprints. Each Sprint will take 3 weeks or 15 business days.
+- Day 1 = First day of Sprint, Day -1 = Last day of Previous Sprint, Day -5 = Five days before Sprint start.
+- In each Activity, first lane is the activity name, and name in bracket will be the owner of this activity.
+- Phase Preparation and Phase Planning will be loop at the begnning and the end of each Phase (Phase have 3 or 4 Sprints time period)
+- TPM = Technical Project Manager, Tech lead = Software team lead, Product Owner = Product team lead
+
+![image](004_images/010_Agile_workflow.drawio.png)
+
+----------------------------------------------------
+----------------------------------------------------
+<br>
+<br>
+<br>
 
 # Sprint Planning Preparation
 Before a Sprint start, we need to prepare a lot meetings, activity, and documents to ensure smooth Sprint Planning.
 A few key exit criteria will be posted at begnning and end of this section, we will post a exit criteria checklist at the end of this section.
-
 
 ## Essential Activities
 
@@ -50,6 +67,9 @@ A few key exit criteria will be posted at begnning and end of this section, we w
 - In the 70% story points, we also need to consider the documentation, including development concetp architecture draft, product business requiement design review, and test plan review work load.
 > **Exit Criteria[Outputs/TakeAway]:** 
 > - Team capacity and story points calculation is done and approved by stakeholders.
+> - Upload the team capacity file in cloud for future reference.
+
+![image](004_images/002_team_capacity.png)
 
 ------------------------------------------------------------------------
 
@@ -122,18 +142,26 @@ A few key exit criteria will be posted at begnning and end of this section, we w
 
 
 # Phase Planning
-Phase Planning will decide for next 4 Sprint which user story in backlog should be pick up and implement based on the priority and dependencies 
+Phase Planning was orginzed by Product team to decide which user stories in backlog should be pick up and implement based on the priority and dependencies for next 4 Sprint. 
 
 ## Agile Activites
 
-### Story Grooming Sessions
+### Phase Planning Meeting
+- Product team prioritize the Backlog based on feature business value, complexity, and risk.
 - Product team assign backlog UserStory to each team base on team capacity and skill set backgound. For exmaple bank-end, frond-end, and mobile skillset should be distrubited to corresponding team.
 - Team memeber should discuss dependencies and risks with the assigned UserStory from backlog as Sprint/Phase Goals.
 
+![image](004_images/003.png)
+
+<Groomed SQL result>
 
 ### Technical Project Manager Tasks
 - Update JIRA tickets fields to demstrante that this ticket will be commited Phase/Sprint Goal.
 - Based JIRA ticket fields to creat Sprint Plan in JIRA Structuere or JIRA Plan.
+
+<JIRA Structure>
+
+<JIRA Plan>
 
 ## Exit checklist:
 
@@ -164,6 +192,9 @@ Phase Planning will decide for next 4 Sprint which user story in backlog should 
 > - From metric reporting level, a update burndown chart should be reported to stakeholders and executive level.
 > - All JIRA ticket fields should be updated to current status, including status, due date, dependencies, and comments.
 
+<confluence page>
+<burndown chart>
+
 ----------------------------------------------------
 
 ### Sprint Plan
@@ -180,6 +211,7 @@ Phase Planning will decide for next 4 Sprint which user story in backlog should 
 > - JIRA Plan or JIRA Structure is updated and shared to all stakeholders
 > - 
 
+<Sprint Plan Conflunce Page>
 
 ### Sprint Review
 - Sprint Plan and Sprint Review meeting can be arranged together if the team is small.
@@ -190,12 +222,12 @@ Phase Planning will decide for next 4 Sprint which user story in backlog should 
   - Story Points Completed rate = (Points of team completed)/(Points of team planned)
   - Feature compelted rate = (Number of features completed)/(Number of features planned)
   - Team Velosity = (Points of team complete in current Sprint)/(Team total logged hours)
-  - Bug rate = (Number of bugs found)/(contributted line of code)
+  - Bug Density = (Number of bugs found)/(contributted line of code)
 > **Exit Criteria [Outputs/TakeAway]:** 
 > - Sprint metrics updates
 > - Mitigration plan if previous commitement goal was not finished.
 
-
+<defect filter>
 ----------------------------------------------------
 
 ### Sprint Retrospective
@@ -246,6 +278,14 @@ Phase Planning will decide for next 4 Sprint which user story in backlog should 
 
 ----------------------------------------------------
 ----------------------------------------------------
+
+<br>
+<br>
+<br>
+
+# Waterfall vs Agile
+
+![image](004_images/001.png)
 
 
 # Reference
