@@ -3,29 +3,29 @@
 
 - [Table of Contents](#table-of-contents)
 - [Agile Workflow](#agile-workflow)
-- [Sprint Planning Preparation](#sprint-planning-preparation)
+- [Release Planning Preparation](#release-planning-preparation)
   - [Essential Activities](#essential-activities)
     - [Prepare team capacity and story points calculation](#prepare-team-capacity-and-story-points-calculation)
     - [Prepare Product document and JIRA tickets (Business Requirement Design)](#prepare-product-document-and-jira-tickets-business-requirement-design)
     - [Prepare Software design document (Concept Architecture)](#prepare-software-design-document-concept-architecture)
     - [Story Grooming Session](#story-grooming-session)
-  - [Preparation checklist:](#preparation-checklist)
-- [Phase Planning](#phase-planning)
-  - [Agile Activites](#agile-activites)
-    - [Phase Planning Meeting](#phase-planning-meeting)
-    - [Technical Project Manager Tasks](#technical-project-manager-tasks)
   - [Exit checklist:](#exit-checklist)
+- [Release Planning](#release-planning)
+  - [Agile Activites](#agile-activites)
+    - [Release Planning Meeting](#release-planning-meeting)
+    - [Technical Project Manager Tasks](#technical-project-manager-tasks)
+  - [Exit checklist:](#exit-checklist-1)
 - [Sprint Excecution](#sprint-excecution)
   - [Agile Activites](#agile-activites-1)
     - [Daliy Scrum](#daliy-scrum)
     - [Sprint Plan](#sprint-plan)
     - [Sprint Review](#sprint-review)
-  - [](#)
     - [Sprint Retrospective](#sprint-retrospective)
-  - [Exit checklist:](#exit-checklist-1)
+  - [Exit checklist:](#exit-checklist-2)
 - [Other Activities](#other-activities)
   - [Product Demo](#product-demo)
   - [Documentations](#documentations)
+  - [Test Plan](#test-plan)
 - [Agile Methods](#agile-methods)
   - [Manifesto for Agile Software Development](#manifesto-for-agile-software-development)
 - [Reference](#reference)
@@ -40,9 +40,9 @@
 # Agile Workflow
 - This is only a general Agile workflow. It can be modified and adapted to orgranization/project specific needs.
 - Each Phase will contain several Sprints. Each Sprint will take 3 weeks or 15 business days.
-- Day 1 = First day of Sprint, Day -1 = Last day of Previous Sprint, Day -5 = Five days before Sprint start.
+- (Day 1) = First day of Sprint, (Day-1) = Last day of Previous Sprint, (Day-5) = Five days before Sprint start.
 - In each Activity, first lane is the activity name, and name in bracket will be the owner of this activity.
-- Phase Preparation and Phase Planning will be loop at the begnning and the end of each Phase (Phase have 3 or 4 Sprints time period)
+- Phase Preparation and Release Planning will be loop at the begnning and the end of each Phase (Phase have 3 or 4 Sprints time period)
 - TPM = Technical Project Manager, Tech lead = Software team lead, Product Owner = Product team lead
 
 ![image](004_images/010_Agile_workflow.drawio.png)
@@ -53,8 +53,8 @@
 <br>
 <br>
 
-# Sprint Planning Preparation
-Before a Sprint start, we need to prepare a lot meetings, activity, and documents to ensure smooth Sprint Planning.
+# Release Planning Preparation
+Before a Release cycle start, we need to prepare a lot of meetings, activity, and documents to ensure smooth Release Planning.
 A few key exit criteria will be posted at begnning and end of this section, we will post a exit criteria checklist at the end of this section.
 
 ## Essential Activities
@@ -125,8 +125,7 @@ A few key exit criteria will be posted at begnning and end of this section, we w
 > - Acceptance Critera are well-defined, providing a clar and testable outline.
 > - Team members are agrred to add "Groomed" to dev story ticket and that is considered as "READY FOR SPRINT PLANNING"
 
-## Preparation checklist:
-
+## Exit checklist:
 - [ ] Development Team capacity and story points calculation which provide by Technical Project Manager
 - [ ] JIRA Backlog is priotiezed and all tickets have been created and well-defined.
 - [ ] JIRA Backlog have approved Business requirement design document and software design document.
@@ -140,19 +139,19 @@ A few key exit criteria will be posted at begnning and end of this section, we w
 
 
 
-# Phase Planning
-Phase Planning was orginzed by Product team to decide which user stories in backlog should be pick up and implement based on the priority and dependencies for next 4 Sprint. 
+# Release Planning
+Release Planning was orginzed by Product team to decide which user stories in backlog should be picked up and implement based on the priority, business value, and dependencies for next 4 Sprint. 
 
 ## Agile Activites
 
-### Phase Planning Meeting
+### Release Planning Meeting
 - Product team prioritize the Backlog based on feature business value, complexity, and risk.
-- Product team assign backlog UserStory to each team base on team capacity and skill set backgound. For exmaple bank-end, frond-end, and mobile skillset should be distrubited to corresponding team.
+- Product team assigns backlog UserStory to each team base on team capacity and skill set backgound. For exmaple bank-end, frond-end, and mobile skillset should be distrubited to corresponding team.
 - Team memeber should discuss dependencies and risks with the assigned UserStory from backlog as Sprint/Phase Goals.
+- If the team can't commited the assigned UserStory or find protional dependencies, the product team and orgrization should discuss mitigtaion and find another resources.
 
 ![image](004_images/004.png)
 
-<Groomed SQL result>
 
 ### Technical Project Manager Tasks
 - Update JIRA tickets fields to demstrante that this ticket will be commited Phase/Sprint Goal.
@@ -192,14 +191,12 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 
 ![image](004_images/006.png)
 
-<confluence page>
-<burndown chart>
 
 ----------------------------------------------------
 
 ### Sprint Plan
 - Sprint Plan and Sprint Review meeting can be arranged together if the team is small.
-- deliver Phase Planning meeting information to all team members
+- deliver Release Planning meeting information to all team members
 - Before the new Sprint start, either the last day before Spirnt or the first day of the Sprint, the Agile Sprint Planning meeting should be held.
 - The Sprint Plan meeting should include the following:
   - Sprint Goal and Phase Goal
@@ -229,23 +226,22 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 
 ![image](004_images/007.png)
 
-<defect filter>
 ----------------------------------------------------
 
 ### Sprint Retrospective
 - what we did well
 - which part we need to improve
 > **Exit Criteria [Outputs/TakeAway]:** 
-> - Sprint metrics updates
-> - Mitigration plan if previous commitement goal was not finished.
+> - Improvement plan for not good area.
+> - Tempoaray mitigation plan if necessary.
 
+![image](004_images/012.png)
 
 ----------------------------------------------------
 ## Exit checklist:
-- [ ] JIRA tickets fields are updated to correct status daily. Same to dashboard.
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] JIRA tickets fields are updated to correct status daily. Dashboards are updated to correct status.
+- [ ] Sprint Reivew report with burndown chart and other metrics.
+- [ ] Sprint Retrospective sugggestions and follow up plan.
 ----------------------------------------------------
 ----------------------------------------------------
 <br>
@@ -255,7 +251,7 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 # Other Activities
 
 ## Product Demo
-- Product deme can be Sprint Demo or Feature demo.
+- Product deme can be Sprint Demo or Feature demo. The demo must be based on releable version. 
 
 ## Documentations
 - Product business requirement document (BRD)
@@ -263,6 +259,10 @@ Phase Planning was orginzed by Product team to decide which user stories in back
 - System test Plan
 - Implementation Guide
 - Application User Guide
+- All documentations need to be updated to correct cloud folder and shared to stakeholders.
+
+## Test Plan
+- Make sure reserved enought time for testing.
 
 
 ----------------------------------------------------
